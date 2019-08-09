@@ -2,22 +2,23 @@ module.exports = {
   plugins: [
     {
       resolve: `gatsby-theme-blog`,
-      options: {},
+      options: {
+      },
     },
   ],
   // Customize your site metadata:
   siteMetadata: {
-    title: `My Blog Title`,
-    author: `My Name`,
+    title: `Hungry Bear Studio`,
+    author: `Rich Haines`,
     description: `My site description...`,
     social: [
       {
         name: `twitter`,
-        url: `https://twitter.com/gatsbyjs`,
+        url: `https://twitter.com/studio_hungry`,
       },
       {
         name: `github`,
-        url: `https://github.com/gatsbyjs`,
+        url: `https://github.com/molebox`,
       },
     ],
   },
